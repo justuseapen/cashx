@@ -19,6 +19,6 @@ import "react-phoenix"
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Jumbotron from './components/Jumbotron';
+import AddTransaction from './components/AddTransaction';
 
-ReactDOM.render(<Jumbotron />, document.getElementById("react-app"));
+ReactDOM.render(<AddTransaction />, document.getElementById("react-app"));
