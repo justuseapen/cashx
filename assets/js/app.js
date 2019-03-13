@@ -10,8 +10,15 @@ import css from "../css/app.css"
 // Import dependencies
 //
 import "phoenix_html"
+import "react-phoenix"
 
 // Import local files
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
+import React from "react";
+import ReactDOM from "react-dom";
+
+import Jumbotron from './components/Jumbotron';
+
+ReactDOM.render(<Jumbotron />, document.getElementById("react-app"));

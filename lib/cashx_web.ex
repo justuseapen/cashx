@@ -42,6 +42,8 @@ defmodule CashxWeb do
       import CashxWeb.ErrorHelpers
       import CashxWeb.Gettext
       alias CashxWeb.Router.Helpers, as: Routes
+
+      import ReactPhoenix.ClientSide
     end
   end
 
